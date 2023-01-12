@@ -1,4 +1,4 @@
-# Lab Report1 1: Setting Up for CSE 15L
+# Lab Report 1: Setting Up for CSE 15L
 
 Welcome to CSE 15L! In this tutorial, we will be going over how to
 log into a course-specifc account on `ieng6`. There are three important 
