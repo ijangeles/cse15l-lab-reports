@@ -1,7 +1,7 @@
 # Lab Report1 1: Setting Up for CSE 15L
 
 Welcome to CSE 15L! In this tutorial, we will be going over how to
-log into a course-specifc account on 'ieng6'. There are three important 
+log into a course-specifc account on `ieng6`. There are three important 
 steps to take in order to set up your environment, gain remote access, and
 practice using commands.
 
@@ -28,7 +28,7 @@ clicking on **Terminal** -> **New Terminal** or pressing Ctrl + '.
 
 <img width="500" alt="Screenshot 2023-01-12 at 2 14 27 PM" src="https://user-images.githubusercontent.com/122497165/212192565-59d28023-64a0-4ce4-85e4-f9d2527d9de5.png">
 
-2. Once the terminal is open, use 'ssh' in the command and insert your 'Course-SpecificAccountName@ieng6.ucsd.edu (e.g. 'ssh cs15lwi23abc'). Once you press enter, you 
+2. Once the terminal is open, use `ssh` in the command and insert your 'Course-SpecificAccountName@ieng6.ucsd.edu (e.g. `ssh cs15lwi23abc`). Once you press enter, you 
 will be prompted with a message asking 'Are you sure you want to continue connecting (yes/no/[fingerprint])? as it may be your first time connecting to a new server.
 
 3. Input yes, and you will then input your password for your course-specific account (if it shows nothing being typed, you are currently inputting characters) and press enter, where you will then be prompted that you're logged into a computer (server) in the CSE basement!
@@ -38,9 +38,9 @@ will be prompted with a message asking 'Are you sure you want to continue connec
 ## Part 3: Running Commands 
 
 1. Now that you're remotely connected to a server, you may try running some commands 
-like 'cd', 'ls', 'pwd', 'mkdir', and 'cp' in the terminal.
+like `cd`, `ls`, `pwd`, `mkdir`, and `cp` in the terminal.
 
-2. A command like 'pwd', will print the current working directory the terminal is using ('/home/linux/ieng6/cs15lwi23/cs15lwi23anf'). Inputting 'mkdir' followed by a new name will create a new directory in the current location with that name and using 'ls' will display the accessible contents of the directory (highlighted in blue).
+2. A command like `pwd`, will print the current working directory the terminal is using (`/home/linux/ieng6/cs15lwi23/cs15lwi23anf`). Inputting `mkdir` followed by a new name will create a new directory in the current location with that name and using `ls` will display the accessible contents of the directory (highlighted in blue).
 
 <img width="500" alt="Screenshot 2023-01-12 at 2 44 02 PM" src="https://user-images.githubusercontent.com/122497165/212197159-bcbed63a-6b0c-4b9a-9231-83f3f7f31380.png">
 
@@ -48,6 +48,6 @@ like 'cd', 'ls', 'pwd', 'mkdir', and 'cp' in the terminal.
 by using: 
 
 * Ctrl-D
-* The command 'exit'
+* The command `exit`
 
 **You have successfully setup your enviornment, remotely connect to a server, and run commands for CSE 15L!**
