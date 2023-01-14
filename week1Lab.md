@@ -29,7 +29,7 @@ clicking on **Terminal** -> **New Terminal** or pressing Ctrl + '.
 <img width="500" alt="Screenshot 2023-01-12 at 2 14 27 PM" src="https://user-images.githubusercontent.com/122497165/212192565-59d28023-64a0-4ce4-85e4-f9d2527d9de5.png">
 
 2. Once the terminal is open, use `ssh` in the command and insert your 'Course-SpecificAccountName@ieng6.ucsd.edu (e.g. `ssh cs15lwi23abc`). Once you press enter, you 
-will be prompted with a message asking 'Are you sure you want to continue connecting (yes/no/[fingerprint])? as it may be your first time connecting to a new server.
+will be prompted with a message asking `Are you sure you want to continue connecting (yes/no/[fingerprint])?` as it may be your first time connecting to a new server.
 
 3. Input yes, and you will then input your password for your course-specific account (if it shows nothing being typed, you are currently inputting characters) and press enter, where you will then be prompted that you're logged into a computer (server) in the CSE basement!
 
