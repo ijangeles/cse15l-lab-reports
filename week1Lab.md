@@ -28,10 +28,14 @@ clicking on **Terminal** -> **New Terminal** or pressing Ctrl + '.
 
 <img width="500" alt="Screenshot 2023-01-12 at 2 14 27 PM" src="https://user-images.githubusercontent.com/122497165/212192565-59d28023-64a0-4ce4-85e4-f9d2527d9de5.png">
 
-2. Once the terminal is open, use `ssh` in the command and insert your 'Course-SpecificAccountName@ieng6.ucsd.edu (e.g. `ssh cs15lwi23abc`). Once you press enter, you 
+2. Now, you must look up your course-specific account for CSE 15L through here: [Link](https://sdacs.ucsd.edu/~icc/index.php). To get help in resetting your password, click this tutorial: [Link](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) and carefully follow the onscreen instructions. Once you've reset your password, you can access your course-specific account username through the first link and you will then be able to view the username. (Your course-specific account username should include `cs15lwi23___` with the underlined portion having your course-specific letters)
+
+<img width="500" alt="Screen Shot 2023-01-24 at 11 58 39 AM" src="https://user-images.githubusercontent.com/122497165/214397089-e93aab6f-17b8-4c1e-8767-6622f8d3a607.png">
+
+3. Return to the VSCode terminal and use `ssh` in the command and insert your 'Course-SpecificAccountName@ieng6.ucsd.edu (e.g. `ssh cs15lwi23abc`). Once you press enter, you 
 will be prompted with a message asking `Are you sure you want to continue connecting (yes/no/[fingerprint])?` as it may be your first time connecting to a new server.
 
-3. Input yes, and you will then input your password for your course-specific account (if it shows nothing being typed, you are currently inputting characters) and press enter, where you will then be prompted that you're logged into a computer (server) in the CSE basement!
+4. Input yes, and you will then input your password for your course-specific account (if it shows nothing being typed, you are currently inputting characters) and press enter, where you will then be prompted that you're logged into a computer (server) in the CSE basement!
 
 <img width="500" alt="Screenshot 2023-01-12 at 2 36 02 PM" src="https://user-images.githubusercontent.com/122497165/212196046-300d1f67-b9ac-4cd2-bc59-1ff1249735a3.png">
 
