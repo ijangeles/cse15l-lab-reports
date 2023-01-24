@@ -11,7 +11,7 @@ practice using commands.
 
 ## Part 1: Installing Visual Studio Code
 
-1.To set up the environment, go to the Visual Studio Code website: [Link](https://code.visualstudio.com/), and follow the instructions to download and
+1. To set up the environment, go to the Visual Studio Code website: [Link](https://code.visualstudio.com/), and follow the instructions to download and
 install it onto your device. This can be done with all versions of operating systems
 like OSX and Windows.
 
