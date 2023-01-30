@@ -86,13 +86,13 @@ public class ArrayExamples {
 
 ```
 @Test
-  public void testReverseinPlace2() {
+  public void testReversed2() {
     int[] input2 = {1, 2, 3, 4 ,5};
     ArrayExamples.reverseInPlace(input2);
     assertArrayEquals(new int[]{5, 4, 3 ,2, 1}, input2);
   }
 ```
-2. One input that doesn't induce a failure was with an empty list, shown below. We tested this case by reversing the array and checking to see if the array matched the expected array thats empty. The test passed, indicating that the method `static int[] reversed(int[] arr)` works, which in reality, it does not.
+2. One input that doesn't induce a failure was with an empty list, shown below. We tested this case by reversing the array and checking to see if the array matched the expected array thats empty. The test passed, indicating that the method `reversed(int[] arr)` works, which in reality, it does not.
 
 ```
 @Test
