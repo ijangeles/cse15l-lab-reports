@@ -82,7 +82,7 @@ public class ArrayExamples {
     return arr;
   }
 ```
-1. The method is intended to return a new array with all the elements of the input array in reversed order. When using JUnit test in the tester file `ArrayTests.java`, the method passes certain cases, but doesn't pass for other cases. In this situation, we had to debug and identify where in the program is causing the wrong output. First, the failure-inducing input for the program was tested as shown below: 
+The method is intended to return a new array with all the elements of the input array in reversed order. When using JUnit test in the tester file `ArrayTests.java`, the method passes certain cases, but doesn't pass for other cases. In this situation, we had to debug and identify where in the program is causing the wrong output. First, the failure-inducing input for the program was tested as shown below: 
 
 ```
 @Test
@@ -92,7 +92,7 @@ public class ArrayExamples {
     assertArrayEquals(new int[]{5, 4, 3 ,2, 1}, input2);
   }
 ```
-2. One input that doesn't induce a failure was with an empty list, shown below. We tested this case by reversing the array and checking to see if the array matched the expected array thats empty. The test passed, indicating that the method `reversed(int[] arr)` works, which in reality, it does not.
+One input that doesn't induce a failure was with an empty list, shown below. We tested this case by reversing the array and checking to see if the array matched the expected array thats empty. The test passed, indicating that the method `reversed(int[] arr)` works, which in reality, it does not.
 
 ```
 @Test
@@ -102,7 +102,7 @@ public class ArrayExamples {
   }
 ```
 
-3. To see the symptoms of running the buggy program, we tested the failure-inducing case, where we created an int array that contained the ints `{1, 2, 3, 4, 5}`. We then reversed the array and tested to see if the array would match the expected array, which is a new array of the original elements but in reversed order (`{5, 4, 3, 2, 1}`). As a result, the test failed and was given an error saying that the expected element at index 0 was `5` but was actually `0`. 
+To see the symptoms of running the buggy program, we tested the failure-inducing case, where we created an int array that contained the ints `{1, 2, 3, 4, 5}`. We then reversed the array and tested to see if the array would match the expected array, which is a new array of the original elements but in reversed order (`{5, 4, 3, 2, 1}`). As a result, the test failed and was given an error saying that the expected element at index 0 was `5` but was actually `0`. 
 
 <img width="500" alt="Screen Shot 2023-01-25 at 8 53 43 PM" src="https://user-images.githubusercontent.com/122497165/214761245-a72d116f-9dfe-4896-a77f-861235c181dc.png">
 
@@ -110,7 +110,7 @@ We tested the method with the input that doesn't induce a failure and successful
 
 <img width="500" alt="Screen Shot 2023-01-25 at 9 08 49 PM" src="https://user-images.githubusercontent.com/122497165/214762772-46917796-fcef-4d0d-b327-ea7a8d5d1edf.png">
 
-4. Based on the failure-inducing test, we were able to look through the method and debug the parts that were needed to be corrected in order to work for all cases. 
+Based on the failure-inducing test, we were able to look through the method and debug the parts that were needed to be corrected in order to work for all cases. 
 
 Here is the method before the change:
 ```
