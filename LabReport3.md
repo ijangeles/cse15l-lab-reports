@@ -7,7 +7,7 @@ The 'find' command is a command line utility that is used to go through a file h
 ## -name 
 Sources:
 * ChatGPT-Searched `What are some find command-line options and what does each one do?`
-* [Linux find command] https://www.computerhope.com/unix/ufind.htm
+* Linux find command: [https://www.computerhope.com/unix/ufind.htm](https://www.computerhope.com/unix/ufind.htm)
 
 
 Using the  `find -name` option allows for the user to search for a file with a specifc name. For example `find path/directory -name "cse15l.txt"` will search for a file named `cse15l.txt` from the path/directory you are searching in. Here are some examples:
@@ -49,7 +49,7 @@ written_2//non-fiction/OUP/Rybczynski/ch1.txt
 ## -type
 Sources:
 * ChatGPT-Searched `What are some find command-line options and what does each one do?`
-* [Linux find command] https://www.computerhope.com/unix/ufind.htm
+* Linux find command: [https://www.computerhope.com/unix/ufind.htm](https://www.computerhope.com/unix/ufind.htm)
 
 Using the  `find -type` option allows for the user to search for a file of a specifc type. The three types that can be looked for is `f` for regular files, `d` for directories, and `l` for symbolic links. Here are the examples:
 
@@ -87,7 +87,7 @@ written_2//non-fiction
 ## -mtime
 Sources:
 * ChatGPT-Searched `What are some find command-line options and what does each one do?`
-* [Linux find command] https://www.computerhope.com/unix/ufind.htm
+* Linux find command: [https://www.computerhope.com/unix/ufind.htm](https://www.computerhope.com/unix/ufind.htm)
 
 
 The `find -mtime` command option allows the user to search for files that were modified under a specific time period. For example, `find path/directory -mtime -7` would search files in the path or directory that have been modified within the last 7 days. 
@@ -120,7 +120,7 @@ written_2//travel_guides/berlitz2
 ## -empty
 Sources:
 * ChatGPT-Searched `What are some find command-line options and what does each one do?`
-* [Linux find command] https://www.computerhope.com/unix/ufind.htm
+* Linux find command: [https://www.computerhope.com/unix/ufind.htm](https://www.computerhope.com/unix/ufind.htm)
 
 
 The `find -empty` command option allows the user to search for empty files or directories. An empty file would be a file that has no data and an empty directory would be one without any subdirectories or files.
