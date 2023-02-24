@@ -21,6 +21,7 @@ This step does not require any commands or keypresses as it's part of the setup 
 After deleting existing forks of the repository, we must now do a new fork of the repository to setup before the real tasks. 
 
 After forking the Lab 7 repository, we can now make a fresh clone of the repository on Github Desktop:
+
 <img width="500" alt="Screen Shot 2023-02-23 at 1 18 12 PM" src="https://user-images.githubusercontent.com/122497165/221032399-e182b891-f879-41fb-bf66-c9835cf87fe2.png">
 
 After this setup step, we will now be able to begin the timer for the real task, where we will start first with logging into a local computer with `ieng6`.
@@ -60,5 +61,28 @@ After changing directory into the `lab7` directory, I used `<ctrl-r>` to search 
 
 **6. Editing the code file to fix the test**
 
+*Keys pressed:* `nano "Lis" <tab>, scroll down to line 42 OR <down> 42x, <right> 12x, <delete>, input "2"`
 
+*Keys pressed to save:* `<ctrl-o><enter><ctrl-x>`
 
+<img width="500" alt="Screen Shot 2023-02-23 at 3 51 29 PM" src="https://user-images.githubusercontent.com/122497165/221057678-b4f768f8-290d-4b40-a25e-cff20c0099ba.png">
+
+To edit the file with the error, I first had to open the `ListExamples.java` by using `nano` then typing `"Lis"` and using `<tab>` to autofill the file name. I then scrolled down to line 42 (OR do <down> 42 times) and moved the cursor `<right>` 12 times to get to where the error was. I then `<delete>` to remove the error and replace it with the correct character, which was `"2"`. In this step, I opened the ListExamples.java file to find the error and edit the line that was causing the error.
+  
+To save the changes, I used `<ctrl-o>` to save the changes and pressed `<enter>` to apply the changes. Then I use `<ctrl-x>` to exit out the file.
+
+**7. Running the tests to show that they succeed**
+
+ *Keys pressed:* `<ctrl-r> "javac" <enter>, <ctrl-r> "java" <up><up><up><up><up><enter>`
+  
+<img width="500" alt="Screen Shot 2023-02-23 at 4 10 39 PM" src="https://user-images.githubusercontent.com/122497165/221059984-3014bfe2-5446-4db8-84e6-896526a7f681.png">
+
+To run the tests again, I opened up my bash history to search for the command that compiles the files by searching with `"javac"`, which autofilled in the command and pressed `<enter>`. I then opened the bash history again to search for the command that runs the test file. I input `"java"`, but the command was 5 up in the search history, so I used the up arrwo to access it and pressed `<enter>` to run the tests.
+  
+**8. Commit and push the change to Github**
+
+*Keys pressed:* `git add "Li" <tab><enter>, <ctrl-r> "git commit" <enter>, git push`
+  
+<img width="500" alt="Screen Shot 2023-02-23 at 4 22 57 PM" src="https://user-images.githubusercontent.com/122497165/221061487-097ec473-ef49-4358-91ca-2b19e69e2b91.png">
+
+Once the tests passes, I have to use `git add` with the file that was changed, typing `"Li"` and autofilling `<tab>` to `ListExamples.java`, which I enter to add the change to the current directory. I then go through my bash history to search for `git commit` and the command autofills `git commit -m "Updated"` as I used this command during lab. I press `<enter>`and finally, type out `git push` and press `<enter>` to push the change to my Github account.  
